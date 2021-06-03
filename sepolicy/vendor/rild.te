@@ -1,1 +1,3 @@
 get_prop(rild, exported_radio_prop)
+
+add_hwservice(rild, hal_rilnv_hwservice)

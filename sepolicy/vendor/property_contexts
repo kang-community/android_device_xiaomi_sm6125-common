@@ -5,6 +5,10 @@ audio_hal.in_period_size                u:object_r:vendor_default_prop:s0
 audio_hal.period_multiplier             u:object_r:vendor_default_prop:s0
 persist.audio.fluence.voicecomm         u:object_r:vendor_default_prop:s0
 
+# Bluetooth
+ro.ril.oem.btmac                        u:object_r:wifibtmac_prop:s0
+ro.ril.oem.wifimac                      u:object_r:wifibtmac_prop:s0
+
 # Camera
 cameradaemon.SaveMemAtBoot              u:object_r:vendor_default_prop:s0
 cpp.set.clock                           u:object_r:vendor_default_prop:s0

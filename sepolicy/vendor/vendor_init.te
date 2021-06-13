@@ -11,4 +11,5 @@ set_prop(vendor_init, vendor_freq_prop)
 set_prop(vendor_init, vendor_camera_prop)
 
 allow vendor_qti_init_shell configfs:dir create_dir_perms;
+allow vendor_qti_init_shell configfs:file create_file_perms;
 allow vendor_qti_init_shell proc_extra_free_kbytes:file w_file_perms;

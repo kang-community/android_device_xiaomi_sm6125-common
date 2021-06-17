@@ -45,12 +45,3 @@ cc_binary {
     "-warnings-as-errors=android-*,clang-analyzer-security*,cert-*"
   ],
 }
-
-sh_binary {
-  name: "thermal_logd",
-  src: "init.thermal.logging.sh",
-  vendor: true,
-  init_rc: [
-    "pixel-thermal-logd.rc",
-  ],
-}

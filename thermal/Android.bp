@@ -42,3 +42,10 @@ cc_binary {
     "-warnings-as-errors=android-*,clang-analyzer-security*,cert-*"
   ],
 }
+
+prebuilt_etc {
+    name: "thermal_info_config_mia3.json",
+    filename: "thermal_info_config.json",
+    src: "thermal_info_config_mia3.json",
+    vendor: true,
+}
